@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.SendFiles">
+    <Button
+        android:layout_weight="1"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_width="match_parent"
+        android:id="@+id/SendButton"
+        android:layout_height="match_parent"
+        android:text="SEND"/>
+    <Button
+        android:layout_weight="1"
+        android:background="@color/design_default_color_error"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ReceiveButton"
+        android:text="RECEIVE"/>
+
+</LinearLayout>

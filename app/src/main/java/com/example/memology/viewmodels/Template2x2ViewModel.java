@@ -26,7 +26,7 @@ public class Template2x2ViewModel extends BaseObservable implements DefaultLifec
     boolean isFirstUploaderActive,isSecondUploaderActive;
     private final ActivityResultRegistry mRegistry;
     private ActivityResultLauncher<Intent> mLauncher;
-    String firstText,secondText = "Enter 2nd Text";
+    String firstText,secondText;
 
     public Template2x2ViewModel(@NotNull ActivityResultRegistry registry){
         mRegistry = registry;

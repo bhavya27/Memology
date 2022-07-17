@@ -3,9 +3,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.memology">
 
-    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-sdk android:minSdkVersion="14"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <application
         android:allowBackup="true"
@@ -18,24 +26,31 @@
         android:theme="@style/Theme.Memology"
         tools:targetApi="31">
         <activity
-            android:name=".activities.FileSelectorPopup"
-            android:exported="false"
-            android:theme="@style/Theme.Memology.Popups"/>
-        <activity
-            android:name=".activities.CreatePost"
-            android:theme="@style/Theme.Design.NoActionBar"
+            android:name=".activities.SendFiles"
             android:exported="false" />
         <activity
-            android:name=".activities.HomePage"
+            android:name=".activities.EntryPage"
             android:exported="true"
-            android:label="@string/title_activity_home_page"
-            android:theme="@style/Theme.Memology.NoActionBar">
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".activities.FileSelectorPopup"
+            android:exported="false"
+            android:theme="@style/Theme.Memology.Popups" />
+        <activity
+            android:name=".activities.CreatePost"
+            android:exported="false"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity
+            android:name=".activities.HomePage"
+            android:exported="true"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/Theme.Memology.NoActionBar"></activity>
         <activity
             android:name=".activities.Template_2x2"
             android:exported="true" />

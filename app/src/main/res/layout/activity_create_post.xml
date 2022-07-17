@@ -13,24 +13,22 @@
         android:orientation="vertical"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:id="@+id/buttContainer"
+            android:layout_height="wrap_content">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="start"
-                android:text="Post "/>
+                android:id="@+id/saveLayoutButton"
+                android:text="Post"/>
 
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:gravity="end"
+                android:layout_alignParentEnd="true"
                 android:text="Cancel" />
-
-
-        </LinearLayout>
+        </RelativeLayout>
 
         <EditText
             android:layout_width="match_parent"

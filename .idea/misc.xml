@@ -3,15 +3,23 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/drawable/customer_border.xml" value="0.1395" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/drawable/ic_menu_gallery.xml" value="0.1395" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_create_post.xml" value="0.25" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_entry_page.xml" value="0.1859375" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_file_selector_popup.xml" value="0.2015625" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_home_page.xml" value="0.25" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_main2.xml" value="0.22083333333333333" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/activity_send_files.xml" value="0.171875" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/app_bar_home_page.xml" value="0.12364130434782608" />
-        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/content_home_page.xml" value="0.25" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/content_home_page.xml" value="0.2234762979683973" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/fragment_footer.xml" value="0.19322916666666667" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/fragment_gallery.xml" value="0.22552083333333334" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/fragment_home.xml" value="0.25" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/fragment_slideshow.xml" value="0.1890625" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/main_memelist.xml" value="0.1" />
+        <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/meme_itemview.xml" value="0.234375" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/nav_header_home_page.xml" value="0.12364130434782608" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/layout/template_2x2.xml" value="0.25" />
         <entry key="..\:/Users/bhavy/AndroidStudioProjects/Memology/app/src/main/res/menu/activity_main_drawer.xml" value="0.22552083333333334" />

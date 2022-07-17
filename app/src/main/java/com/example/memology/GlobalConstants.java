@@ -4,5 +4,6 @@ public class GlobalConstants {
     public static final String FileName = "filename";
     public static final String FileUrl = "fileurl";
     public static final String SelectTemplate = "selecttemplate";
+    public static final String PostCreationNotificationChannelID = "1";
 
 }
